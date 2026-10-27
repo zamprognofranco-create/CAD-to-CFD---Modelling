@@ -1,0 +1,4 @@
+*.stl  binary
+*.dwg  binary
+*.step -text
+*.dxf  -text

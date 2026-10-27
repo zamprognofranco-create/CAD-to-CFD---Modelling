@@ -1,0 +1,54 @@
+{
+  "case_id": "G4_C8",
+  "doc_no": "FDA-OWN-01-PR-DWG-0001-04",
+  "rev": "A",
+  "cases": "C8",
+  "layout": "elbow",
+  "title": "Long-radius 1.5D elbows (R 2.4 m), downcomer at 7.2 m",
+  "geometry": {
+    "riser_d": 5.0,
+    "riser_h": 24.0,
+    "cone_h": 1.0,
+    "sep_d": 6.5,
+    "sep_h": 7.5,
+    "bottom_head_ratio": 2.0,
+    "dc_d": 1.6,
+    "dc_x": 7.2,
+    "dc_top_z": 25.5,
+    "dc_len": 19.5,
+    "return_z": 1.2,
+    "sparger_ring_d": 3.5,
+    "sparger_band_w": 0.2,
+    "sparger_z_above_base": 0.1,
+    "dc_elbow_r_over_d": 1.5
+  },
+  "volume_m3": 824.8358574392054,
+  "liquid_fill_z_m": 26.5,
+  "p_top_bar_a": 5.5,
+  "liquid_volume_m3": 625.7374228020258,
+  "loop": {
+    "elbow_R_m": 2.4000000000000004,
+    "straight_leg_m": 19.5,
+    "top_stub_free_m": 1.5499999999999998,
+    "bottom_stub_free_m": 2.3,
+    "centreline_length_m": 30.889822368615505
+  },
+  "area_walls_m2": 729.2733015664364,
+  "tri_walls": 81376,
+  "area_inlet_m2": 2.4515636898304014,
+  "tri_inlet": 760,
+  "area_outlet_m2": 33.179634366907734,
+  "tri_outlet": 250,
+  "stl_check": {
+    "watertight": true,
+    "winding_consistent": true,
+    "stl_volume_m3": 824.736635078658,
+    "triangles": 82386,
+    "euler_number": 0,
+    "bodies": 1
+  },
+  "units": {
+    "STEP/STL": "m (plus *_mm.stl in mm)",
+    "DXF": "mm"
+  }
+}

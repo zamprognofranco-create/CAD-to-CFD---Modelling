@@ -1,0 +1,54 @@
+{
+  "case_id": "G3_C8SR",
+  "doc_no": "FDA-OWN-01-PR-DWG-0001-03",
+  "rev": "A",
+  "cases": "C8SR",
+  "layout": "elbow",
+  "title": "Short-radius 1.0D elbows (R 1.6 m), downcomer at 5.4 m",
+  "geometry": {
+    "riser_d": 5.0,
+    "riser_h": 24.0,
+    "cone_h": 1.0,
+    "sep_d": 6.5,
+    "sep_h": 7.5,
+    "bottom_head_ratio": 2.0,
+    "dc_d": 1.6,
+    "dc_x": 5.4,
+    "dc_top_z": 25.5,
+    "dc_len": 19.5,
+    "return_z": 1.2,
+    "sparger_ring_d": 3.5,
+    "sparger_band_w": 0.2,
+    "sparger_z_above_base": 0.1,
+    "dc_elbow_r_over_d": 1.0
+  },
+  "volume_m3": 818.97836902172,
+  "liquid_fill_z_m": 26.5,
+  "p_top_bar_a": 5.5,
+  "liquid_volume_m3": 619.8799343845405,
+  "loop": {
+    "elbow_R_m": 1.6,
+    "straight_leg_m": 21.099999999999998,
+    "top_stub_free_m": 0.5500000000000003,
+    "bottom_stub_free_m": 1.3000000000000003,
+    "centreline_length_m": 27.97654824574367
+  },
+  "area_walls_m2": 714.6307441648096,
+  "tri_walls": 81376,
+  "area_inlet_m2": 2.4515636898304014,
+  "tri_inlet": 760,
+  "area_outlet_m2": 33.179634366907734,
+  "tri_outlet": 250,
+  "stl_check": {
+    "watertight": true,
+    "winding_consistent": true,
+    "stl_volume_m3": 818.8801558313634,
+    "triangles": 82386,
+    "euler_number": 0,
+    "bodies": 1
+  },
+  "units": {
+    "STEP/STL": "m (plus *_mm.stl in mm)",
+    "DXF": "mm"
+  }
+}

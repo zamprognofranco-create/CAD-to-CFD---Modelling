@@ -1,0 +1,52 @@
+{
+  "case_id": "G2_SCR1",
+  "doc_no": "FDA-OWN-01-PR-DWG-0001-02",
+  "rev": "A",
+  "cases": "SCR1",
+  "layout": "mitred",
+  "title": "Separator screening S-3: 7.5 m separator, right-angle loop corners",
+  "geometry": {
+    "riser_d": 5.0,
+    "riser_h": 24.0,
+    "cone_h": 1.0,
+    "sep_d": 7.5,
+    "sep_h": 7.5,
+    "bottom_head_ratio": 2.0,
+    "dc_d": 1.6,
+    "dc_x": 4.55,
+    "dc_top_z": 25.5,
+    "dc_len": 19.5,
+    "return_z": 1.2,
+    "sparger_ring_d": 3.5,
+    "sparger_band_w": 0.2,
+    "sparger_z_above_base": 0.1,
+    "dc_elbow_r_over_d": 0.0
+  },
+  "volume_m3": 905.253031031149,
+  "liquid_fill_z_m": 26.5,
+  "p_top_bar_a": 5.5,
+  "liquid_volume_m3": 640.1811491247956,
+  "loop": {
+    "straight_leg_m": 24.3,
+    "top_connector_free_length_m": 0.0,
+    "bottom_connector_free_length_m": 1.25
+  },
+  "area_walls_m2": 744.7330186339564,
+  "tri_walls": 19152,
+  "area_inlet_m2": 2.4515636898304014,
+  "tri_inlet": 760,
+  "area_outlet_m2": 44.17406942339788,
+  "tri_outlet": 250,
+  "stl_check": {
+    "watertight": true,
+    "winding_consistent": true,
+    "stl_volume_m3": 905.1481897309365,
+    "triangles": 20162,
+    "euler_number": 0,
+    "bodies": 1
+  },
+  "units": {
+    "STEP/STL": "m (plus *_mm.stl in mm)",
+    "DXF": "mm"
+  }
+}

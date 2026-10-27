@@ -1,0 +1,52 @@
+{
+  "case_id": "G6_C0_pilot",
+  "doc_no": "FDA-OWN-01-PR-DWG-0001-06",
+  "rev": "A",
+  "cases": "C0a-C0d (Young 1991 pilot validation)",
+  "layout": "capsule",
+  "title": "Pilot validation reactor (Young 1991), implicit-surface layout",
+  "geometry": {
+    "riser_d": 0.19,
+    "riser_h": 2.2,
+    "cone_h": 0.1,
+    "sep_d": 0.52,
+    "sep_h": 0.65,
+    "bottom_head_ratio": 2.0,
+    "dc_d": 0.14,
+    "dc_x": 0.36,
+    "dc_top_z": 2.45,
+    "dc_len": 2.0,
+    "return_z": 0.12,
+    "sparger_ring_d": 0.12,
+    "sparger_band_w": 0.03,
+    "sparger_z_above_base": 0.1,
+    "dc_elbow_r_over_d": 0.0
+  },
+  "volume_m3": 0.24985979466753924,
+  "liquid_fill_z_m": 2.52,
+  "p_top_bar_a": 1.01325,
+  "liquid_volume_m3": 0.15853997889071808,
+  "loop": {
+    "implicit_model_defect": "fdafoam implicit(): lower return ends at x = -0.405 m and top connector at x = -0.240 m (hard-coded 0.5 m inset); clamped to the vessel axis in this CAD",
+    "straight_leg_m": 2.0,
+    "return_incline_deg": 42.510447078000865
+  },
+  "area_walls_m2": 3.6664648888618987,
+  "tri_walls": 27684,
+  "area_inlet_m2": 0.012388897733526236,
+  "tri_inlet": 2030,
+  "area_outlet_m2": 0.21234965994820956,
+  "tri_outlet": 250,
+  "stl_check": {
+    "watertight": true,
+    "winding_consistent": true,
+    "stl_volume_m3": 0.24983316679867587,
+    "triangles": 29964,
+    "euler_number": 0,
+    "bodies": 1
+  },
+  "units": {
+    "STEP/STL": "m (plus *_mm.stl in mm)",
+    "DXF": "mm"
+  }
+}
